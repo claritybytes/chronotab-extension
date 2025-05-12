@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Chronotab",
+  "version": "1.0",
+  "description": "Chronotab is the smart scheduling widget your browser's been waiting for.",
+  "permissions": ["tabs", "storage", "alarms", "notifications", "contextMenus"],
+  "action": {
+    "default_title": "Chronotab"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
